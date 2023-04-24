@@ -1,0 +1,788 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: Mahdi;
+  src: url(../fonts/woff2/IRANSansX-Medium.woff2);
+}
+@font-face {
+  font-family: Mahdiyan;
+  src: url(../fonts/woff2/IRANSansX-Light.woff2);
+}
+div.pre {
+  width: 100%;
+  height: 60px;
+}
+div.pre > img {
+  width: inherit;
+  height: inherit;
+}
+
+/*header*/
+div.header {
+  width: 1338px;
+  height: 68px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  top: 7px;
+  right: 1px;
+  bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  gap: 0px;
+}
+div.header > img {
+  width: 115px;
+  height: 30px;
+  margin-right: 14px;
+}
+div.header > div.search {
+  width: 1066px;
+  height: 44px;
+}
+div.header > div.search > div.d {
+  width: 600px;
+  height: 44px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+div.header > div.search > div.d > span {
+  width: 24px;
+  height: 24px;
+}
+div.header > div.search > div.d > div.color {
+  width: 512px;
+  height: 26px;
+  display: inline-block;
+}
+div.kharid {
+  width: 125px;
+  height: 44px;
+  display: inline-block;
+}
+div.kharid > a span {
+  width: 24px;
+  height: 24px;
+  font-size: 25px;
+  padding-right: 20px;
+  color: #2b2b2b;
+}
+/*End header*/
+
+/*Menu*/
+div.menu {
+  width: 100%;
+  height: 40px;
+  font-family: Mahdi;
+  font-size: 14px;
+  background-color: #8f8e8e;
+}
+div.menu > nav {
+  width: inherit;
+  height: inherit;
+}
+div.menu > nav > ul {
+  width: 95%;
+  height: 40px;
+  margin: 0 auto;
+  list-style: none;
+}
+div.menu > nav > ul > li {
+  display: inline-block;
+  line-height: 40px;
+  height: 40px;
+  padding: 3px;
+}
+div.menu > nav > ul > li > a {
+  color: whitesmoke;
+  text-decoration: none;
+  vertical-align: text-bottom;
+}
+div.menu > nav > ul > li > a:hover {
+  /* background-color: rgba(141, 140, 140, 0.1); */
+  border-bottom-color: crimson;
+  transition: all 300ms linear;
+}
+/*End Menu*/
+/*ُstory*/
+.story {
+  display: flex;
+  flex-direction: row;
+  gap: 63px;
+  margin: 20px 20px;
+}
+.story a {
+  width: 75px;
+  height: 98px;
+  text-decoration: none;
+  color: #2b2b2b;
+  font-family: Mahdi;
+  text-align: center;
+  font-size: 13px;
+}
+.story a img:hover {
+  width: 76px;
+  height: 76px;
+  text-decoration: none;
+  color: #c10f0f;
+  border: 3px solid rgb(180, 177, 177);
+}
+.story a img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50px;
+}
+
+/*End Story*/
+
+/*Slider*/
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/*End Slider*/
+
+/*AfterSlider*/
+div.afterslider {
+  width: 100%;
+  height: 95px;
+  text-align: center;
+  font-family: Mahdi;
+  margin: 24px 0px 0px;
+  padding: 0px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 40px;
+  font-size: 12px;
+}
+div.afterslider > div.after {
+  width: 10%;
+  display: inline-block;
+}
+div.afterslider > div.after > img {
+  width: 52px;
+  height: 52px;
+}
+div.afterslider > div.after > img > p {
+  text-align: justify;
+  font-family: Mahdi;
+}
+/*End AfterSlider*/
+
+/*Amazing*/
+.amazing {
+  background-color: crimson;
+  width: 1304px;
+  height: 286px;
+  margin: 24px 0px 0px;
+  padding: 20px 5px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 20px;
+  display: flex;
+  text-align: center;
+}
+.amazing-top {
+  width: 173px;
+  height: 246px;
+  margin: 0px 0px 0px 2px;
+  display: flex;
+  flex-direction: column;
+}
+.amazing-top > a {
+  text-decoration: none;
+  width: 173px;
+  height: 246px;
+  font-family: Mahdi;
+}
+.swiper-slide {
+  width: 182.5
+  px;
+  height: 246px;
+}
+.amazing-bottom {
+  width: 182.5px;
+  height: 246px;
+  gap: 10px;
+  margin: 3px;
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+}
+.amazing-bottom img {
+  width: 150px;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  
+}
+.amazing-bottom a {
+text-decoration: none;
+font-family: Mahdi;
+font-size: 16px;
+color: #3f4064;
+margin: 10px;
+}
+/*End Amazing*/
+
+/*Supermarket*/
+div.super {
+  width: 1304px;
+  height: 110px;
+  background-color: rgb(231, 226, 253);
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin: 24px 0px 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
+div.supermarket1 > a > img {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+}
+
+/*End Supermarket*/
+
+/*Container*/
+div.container {
+  width: 1330px;
+  text-align: center;
+  padding-top: 20px;
+  margin: 0 auto;
+}
+div.container > img {
+  width: 307x;
+  height: 235px;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+/*End container*/
+
+/*Arrangment*/
+div.arrangment {
+  width: 1330px;
+  height: 476px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+div.arrangment > div.arrange {
+  width: 170px;
+  display: inline-block;
+  margin: 11px;
+}
+div.arrangment > div.arrange > a {
+  text-decoration: none;
+  color: #2b2b2b;
+}
+div.arrangment > div.arrange > a:hover {
+  text-decoration: none;
+  color: #7e7c7c;
+}
+div.arrangment img {
+  width: 170px;
+}
+div.arrangment div h4 {
+  font-family: Mahdiyan;
+  font-size: 14px;
+}
+/*End Arrangment*/
+
+/*new1*/
+.flex-container {
+  width: 1320px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 644px;
+  height: 257px;
+  margin: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.flex-container > div > a {
+  background-color: #f1f1f1;
+  width: 644px;
+  height: 257px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 14px;
+}
+.flex-container > div > a > img {
+  background-color: #f1f1f1;
+  width: 644px;
+  height: 257px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 14px;
+}
+/*End new1*/
+
+/*Advice*/
+div.advicment {
+  width: 1330px;
+  height: 320px;
+  text-align: center;
+  align-items: center;
+  align-content: flex-start;
+  margin: 8px 8px 0px;
+  border: 1px solid rgb(187, 183, 183);
+  font-family: Mahdiyan;
+  border-radius: 20px;
+  font-size: 14px;
+}
+div.advicment > div.advice {
+  width: 185px;
+  height: 154px;
+  display: inline-block;
+  border-right: 1px solid rgb(241, 240, 240);
+  border-bottom: 1px solid rgb(241, 240, 240);
+  padding: 16px 4px;
+}
+div.advicment > div.advice > a {
+  text-decoration: none;
+  color: #2b2b2b;
+}
+div.advicment > div.advice > a:hover {
+  text-decoration: none;
+  color: #929090;
+}
+div.advicment img {
+  width: 65px;
+  height: 65px;
+}
+/*End Advice*/
+
+/*Favorite*/
+div.favorite {
+  width: 1304px;
+  height: 220px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 25px;
+  margin-top: 24px;
+  padding: 24px 0px;
+  border: 1px solid gainsboro;
+}
+div.favorite > div.fav-top{
+  width: 1302px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  gap: 10px;
+}
+div.favorite > div.fav-top > p{
+  font-size: 21px;
+  font-family: Mahdi;
+}
+div.favorite > div.fav-bottom {
+  width: 142px;
+  height: 118px;
+  display: flex; 
+}
+div.favorite > div.fav-bottom >a{
+  width: 142px;
+  height: 118px;
+  padding: 4px 16px;
+}
+div.favorite > div.fav-bottom >a>img{
+  width: 110px;
+  height: 110px;
+  margin: 10px;
+}
+/*End Favorite*/
+
+/*new2*/
+.flex-container2 {
+  width: 1320px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+}
+
+.flex-container2 > div {
+  background-color: #f1f1f1;
+  width: 644px;
+  height: 257px;
+  margin: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.flex-container2 > div > a {
+  background-color: #f1f1f1;
+  width: 644px;
+  height: 257px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 14px;
+}
+.flex-container2 > div > a > img {
+  background-color: #f1f1f1;
+  width: 644px;
+  height: 257px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 14px;
+}
+/*End new2*/
+
+/*digiplus*/
+div.digiplus {
+  width: 1330px;
+  height: 400px;
+  background-color: rgb(148, 27, 128);
+  display: flex;
+  flex-direction: column;
+  flex-direction:row;
+  margin: 8px 8px 0px;
+  border: 1px solid rgb(187, 183, 183);
+  font-family: Mahdi;
+  border-radius: 20px;
+  font-size: 14px;
+}
+div.digiplus > a {
+  width: 352px;
+  height: 356px;
+}
+div.digiplus > img {
+  width: 352px;
+  height: 356px;
+}
+div.digiplus > img.logo {
+  position: absolute;
+  right: 10px;
+  width: 128px;
+  height: 32px;
+  margin-right: 50px;
+  margin-top: 25px;
+}
+div.digiplus > div.plus {
+  width: 898px;
+  height: 356px;
+  background-color: #fff;
+  margin: 25px;
+  border-radius: 7px;
+
+}
+div.digiplus > div.plus > div.up > span {
+  float: right;
+  margin: 15px;
+}
+div.digiplus > div.plus > div.up > h4 {
+  float: right;
+  margin-top: 15px;
+  font-family: Mahdi;
+}
+div.digiplus > div.plus > div.up > a {
+  float: left;
+  margin: 15px;
+  text-decoration: none;
+  font-family: Mahdi;
+  color: purple;
+}
+div.digiplus > div.plus > div.up > div.down > img {
+  width: 116px;
+  height: 116px;
+}
+/*End digiplus*/
+
+/*digiclub*/
+div.digiclub {
+  width: 1330px;
+  height: 88px;
+  background-color: rgb(29, 142, 177);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 8px 0px 0px;
+  padding: 12px 16px;
+  gap: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 25px;
+}
+div.digiclub > a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: Mahdiyan;
+}
+div.digiclub > div.club1 {
+  width: 274px;
+  height: 64px;
+  border-radius: 15px;
+  background-color: #fff;
+  display: flex;
+  justify-content: left;
+}
+div.digiclub > div.club1 > a {
+  text-decoration: none;
+  color: #2b2b2b;
+  font-family: Mahdi;
+  font-size: 12px;
+  display: flex;
+}
+div.digiclub > div.club1 > a > span {
+  width: 41px;
+  height: 26px;
+  padding: 2px;
+  display: flex;
+  flex-direction: row;
+}
+div.digiclub > div.club1 > a > img {
+  width: 214px;
+  height: 64px;
+  border-radius: 14px;
+}
+/*End digiclub*/
+
+/*More Sales*/
+/* div.moresales{
+  width: 1304;
+  height: 404px;
+  background-color: gainsboro;
+  margin: 24px 0px 0px;
+  padding: 16px 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  border-radius: 25px;
+  border: 1px solid gainsboro;
+} */
+/* div.moresales> div.more1 {
+  width: 1302px;
+  height: 44.09px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0px 20px;
+  border-radius: 5px;
+  gap: 10px;
+} */
+/* div.moresales> div.more1 > a {
+  display: flex;
+  text-decoration: none;
+  color: rgb(53, 142, 197);
+  font-family: Mahdi;
+  font-size: 14px;
+  padding: 0px 0px 0px 16px;
+  position: absolute;
+  left: 0;
+} */
+/* div.moresales > div.parting {
+  width: 1286px;
+  height: 298px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction:row; 
+} */
+/* div.moresales > div.parting > div.part {
+  width: 285px;
+  height: 86px;
+  gap: 14px;
+} */
+/* div.moresales > div.parting > div.part > img { */
+  width: 86px;
+  height: 86px;
+ /* display: inline-block; */
+/* } */
+/* div.moresales > div.parting > div.part > span { */
+  width: 6.91px;
+  height: 86px;
+  font-family: Mahdi;
+  font-size: 26px;
+  color: #19bfd3;
+  margin: 0px 0px 0px 12px;
+  display: inline-flex;
+  align-items: center;
+/* } */
+/* div.moresales > div.parting > div.part >div.grow { */
+  width: 168px;
+  height: 86px;
+  color: #3f4064;
+  margin: 0px 0px 0px 12px;
+  display: flex;
+  flex-flow: row wrap;
+  position: relative;
+/* } */
+/* div.moresales > div.parting > div.part >div.grow> p { */
+  width: 168px;
+  height: 86px;
+  font-family: Mahdi;
+  font-size: 12px;
+  color: #3f4064;
+  margin: 0px 0px 0px 12px;
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+/* } */
+/*End More Sales*/
+
+/*read*/
+div.readable {
+  width: 1310px;
+  height: 220px;
+  margin: 0 auto;
+}
+div.readable > div.read {
+  width: 315px;
+  display: inline-block;
+}
+div.readable > div.read > img {
+  width: 315px;
+  height: 196px;
+  text-align: center;
+  border-radius: 17px;
+  margin: 20px;
+}
+div.readable > div.read > p {
+  text-align: justify;
+  font-family: Mahdi;
+  font-size: 14px;
+  margin: 20px;
+  margin-top: 1px;
+}
+/*End read*/
+
+/*end*/
+div.end {
+  width: 1310px;
+  height: 40px;
+  margin-top: 70px;
+}
+div.end > img {
+  width: 113px;
+  height: 30px;
+  float: right;
+  padding-right: 20px;
+}
+div.end > span {
+  padding-top: 15px;
+  padding-left: 10px;
+  float: left;
+  font-family: Mahdi;
+}
+div.end > span > a {
+  text-decoration: none;
+}
+/*end*/
+
+/*pack*/
+div.pack {
+  width: 1310px;
+}
+div.pack > * {
+  width: 177px;
+  height: 103px;
+  display: inline-block;
+  margin-top: 25px;
+  margin-right: 80px;
+  font-family: Mahdi;
+  font-size: 12px;
+}
+div.pack > div.pack1 > img {
+  width: 56px;
+  height: 56px;
+  margin-right: 25px;
+}
+/*End pack*/
+
+/*matn*/
+div.matnbaba {
+  width: 1349px;
+}
+div.matnbaba > div.matn {
+  width: 312px;
+  height: 270px;
+  display: inline-block;
+  margin-right: 22px;
+  margin-top: 50px;
+}
+div.matnbaba > div.matn > a {
+  width: 300px;
+  padding-top: 20px;
+  color: rgb(131, 123, 144) black;
+  text-decoration: none;
+  display: inline-block;
+  font-family: Mahdiyan;
+  font-size: 14px;
+}
+/*End matn*/
+
+/*Download*/
+div.download {
+  width: 1310px;
+  height: 76px;
+  background-color: rgb(60, 75, 109);
+  margin-top: 30px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+div.download > img {
+  width: 44px;
+  height: 44px;
+  margin-right: 20px;
+}
+div.download > div.h3 {
+  display: inline-block;
+  font-family: Mahdi;
+  color: whitesmoke;
+  font-size: 16px;
+  vertical-align: top;
+  padding-top: 25px;
+}
+
+/*End Download*/
+
+/*bottom*/
+div.bottom {
+  width: 100%;
+}
+div.bottom > a {
+  width: 157px;
+  height: 80px;
+  /* background-color: rgb(241,242,244); */
+}
+div.bottom > a > img {
+  width: 116px;
+  height: 20px;
+  margin: 14px;
+}
+/*End bottom*/
